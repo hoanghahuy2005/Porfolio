@@ -1,0 +1,36 @@
+.hero{
+    width: 100%;
+    padding-top: 80px;
+}
+
+.hero-container{
+    width: calc(100% - 80px);
+    max-width: 1500px;
+    min-height: calc(100svh - 120px);
+    
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+}
+.hero-content{
+    width: 800px;
+}
+.hero-title{
+    font-family: "Syne", sans-serif;
+}
+.hero-title span{
+    font-size: clamp(56px, 6vw, 110px);;
+    display: block;
+}
+.description{
+    font-family: sans-serif;
+    max-width: 500px;
+    color: #888888    
+}
+#txt{
+    font-family: "DM Mono", monospace;
+    letter-spacing: 3px;
+    color: #555555;
+    font-size: 12px;
+}

@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    
+    width: calc(100% - 80px);
+
+    background-color: rgba(13, 13, 13, 0.5);
+    backdrop-filter: blur(12px);
+   
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 999px;
+    
+    margin: 2px auto;
+    padding: 14px 32px;
+    font-family: 'DM Mono', monospace;
+    position: fixed;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+
+    color: #858585;
+    font-size: 14px;
+}
