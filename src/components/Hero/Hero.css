@@ -1,6 +1,8 @@
 .hero{
+    position: relative;
     width: 100%;
     padding-top: 80px;
+    overflow: hidden;
 }
 
 .hero-container{
@@ -33,4 +35,31 @@
     letter-spacing: 3px;
     color: #555555;
     font-size: 12px;
+}
+
+.hero-glow{
+    filter: opacity(0.5);
+    filter: blur(60px);
+    position: absolute;
+}
+
+.hero-glow:nth-child(1){
+    width: 650px;
+    height: 800px;
+    background: radial-gradient(
+    ellipse,
+    rgba(255, 255, 255, 0.15),
+    transparent 70%
+  );
+}
+.hero-glow:nth-child(2){
+    background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.15),
+    transparent 70%
+  );
+  width: 300px;
+  height: 300px;
+  top: 0px;;
+  right: -50px;
 }

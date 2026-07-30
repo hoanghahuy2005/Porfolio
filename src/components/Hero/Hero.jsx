@@ -2,6 +2,8 @@ import "./Hero.css"
 export default function Hero(){
     return (
         <section className="hero">
+            <div className="hero-glow"></div>
+            <div className="hero-glow"></div>
             <div className="hero-container">
                 <div className="hero-content">
                     <p id="txt"><span>✦</span> AVAILABLE FOR WORK</p>
