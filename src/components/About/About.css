@@ -1,0 +1,43 @@
+.about-container{
+    width: calc(100% - 80px);
+    max-width: 1500px;
+    min-height: calc(100svh - 120px);
+    
+    margin: 0 auto;
+    
+    display: flex;
+    align-items: center;
+    /* background-color: antiquewhite; */
+}
+.about-content{
+    width: 800px;
+    /* background-color: aliceblue; */
+}
+.about-name{
+    font-family: "Syne", sans-serif;    
+    font-weight: 700;
+}
+.about-name span{
+    display: block;
+    font-size: clamp(56px, 6vw, 110px);
+    line-height: 0.85;
+}
+.about-skills{
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    gap: 30px;
+}
+.about-skills span{
+    background-color: #0D0D0D80;
+    backdrop-filter: blur(12px);
+   
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 999px;
+
+    padding: 8px;
+
+    font-size: 12px;
+    font-family: 'DM Mono', monospace;
+    color: #858585;
+}

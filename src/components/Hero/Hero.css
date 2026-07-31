@@ -17,12 +17,13 @@
 }
 .hero-content{
     width: 800px;
+    /* background-color: antiquewhite; */
 }
 .hero-title{
     font-family: "Syne", sans-serif;
 }
 .hero-title span{
-    font-size: clamp(56px, 6vw, 110px);;
+    font-size: clamp(56px, 6vw, 110px);
     display: block;
 }
 .description{
